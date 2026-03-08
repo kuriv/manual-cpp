@@ -1,10 +1,11 @@
 {
   "name": "manual-cpp",
-  "version": "1.0.1",
-  "description": "C++ 手册",
+  "version": "1.0.2",
+  "description": "C++ 是一种计算机高级程序设计语言，由 C 语言扩展升级而产生。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gitbook serve ./ ./book"
   },
   "repository": {
     "type": "git",
